@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+header{
+    background-image:linear-gradient(rgb(52 231 149), rgb(1 71 29));
+    color: rgb(255, 255, 255);
+    }
+    main{
+        background-image: green;
+        box-shadow: 2px 2px 15px;
+        padding: 10px;
+        margin: auto;
+    }  
+nav>a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 3px;
+    }
+h1#titulo{
+    font-family: 'macosx';
+    font-weight: normal;
+    text-align: center;
+    padding: 20px;
+    height: 15px;
+    }
+h2.titulo{
+    font-family: 'macosx';
+    font-weight: normal;
+    font-size: medium;
+    text-align: center;
+    padding: 20px;
+    height: 15px;
+}
+h1.secundario{
+    font-family: 'face';
+    color:rgb(3, 85, 3)
+}
+h2.intermediario{
+    font-family: 'face';
+    color:rgb(3, 85, 3);
+    background-color: rgb(211, 248, 211);
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    }
+span.green{
+    color: green;
+    font-weight: bolder;
+}
+.terciario{
+    background-color: rgb(17, 73, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.quarto{
+    background-color: rgb(239, 243, 239);
+}
+article>p{
+    background-color: rgb(158, 245, 158);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 1px;
+    border-radius: 10px;
+}
+.quarto>p{
+    background-color: rgb(60, 248, 60);
+    color: white;
+
+}
+.quarto>li{
+    background-color: rgb(60, 248, 60);
+    color: white;
+}
